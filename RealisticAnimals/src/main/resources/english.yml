@@ -1,0 +1,35 @@
+#Don't change the version
+version: 1.0
+no-perm: "&cNo permission!"
+time: "%years%y, %month%m, %days%d, %hours%h, %minutes%m, %seconds%s"
+console:
+  dev-restart: "Developer mode is activated, so a restart is performed due to a change in the plugin file."
+  disabled: "Disabled"
+  enabled: "Enabled"
+  loaded-commands: "Loaded %count% command handlers"
+  loaded-listeners: "Loaded %count% listeners"
+  reload-severe: "&c\r\nIt looks like you used the </reload> command or something like that. Using this command is not supported by the plugin and may cause errors. \n If the problem is not with the /reload command, please report a bug in the plugin discussion on Spigot\n https://www.spigotmc.org/threads/realisticanimals.462015/"
+command:
+  config-reloaded: "&aConfig reloaded!"
+  run-as-player: "&cPlease run this command as player."
+  debug:
+    enabled: "&aNow the player %player% will be able to see debug messages"
+    disabled: "&6Now the player %player% will not be able to see debug messages"
+    enabled-you: "&aNow you will be able to see debug messages"
+    disabled-you: "&6Now you will not be able to see debug messages"
+  desc:
+    changes-cancelled: "&eHigher powers and spirits of nature do not want you to change the card of this animal."
+    set-success: "&aChanges applied! &f[&6%before% &e-> &6%after&f]"
+    help: "&aInvalid command input. /anim set realisticname <id> <newId>"
+    too-far: "&eYou are too far away from the edited animal or the entered ID is incorrect. Please come at least within a distance of %distance% blocks"
+card:
+  show-cancelled: "&eHigher powers and spirits of nature do not want you to see the card of this animal."
+  suggest-hover: "&aClick to change realistic name"
+  suggest-command: "/anim set realisticname %realisticname%"
+  # This is what is shown to a player if you right-click on animal.
+  on-right-click:
+    - '&6&O&m&l-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+    - '&6|&aRealisticName: %realisticname%          '
+    - '&6|&aGender: %gender%               '
+    - '&6|&aAge: %age%               '
+    - '&6&o&m&l-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'

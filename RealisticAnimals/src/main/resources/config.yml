@@ -1,0 +1,28 @@
+version: 1.0 # dont change this
+
+# Activates debug messages, and also restarts the server if the modification date
+# of its file has changed (the file has been replaced by the newest build)
+developer-mode: true
+
+# indicates by what number the ticks will be multiplied to get the
+# number of seconds that have passed.
+#
+# The current value is established from the following calculations
+# (on the left is time in Minecraft, on the right is real time).
+#
+# Calculations are based on the fact that 24 hours (1 day) pass in 20 real minutes in Minecraft.
+#
+# Calculations:
+#
+# 20m = 1440m
+# 1tick = 3.6s
+# 1s = 72s
+# 1m = 72m
+# 1h = 72h
+time-ratio: 3.6
+
+# you can create your own locale, to do this, copy the standard locale file
+# and rename it to the name of your locale, place it in the same folder and specify the name here.
+locale: english
+#Indicates within what radius the player can interact with the animal card
+card-change-radius: 5.0

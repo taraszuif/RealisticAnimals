@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/RealisticAnimals-API/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RealisticAnimals-API/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RealisticAnimals/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RealisticAnimals/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RealisticAnimals/src/main/resources/config.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RealisticAnimals/src/main/resources/plugin.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RealisticAnimalsCompat-v1.17.R1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RealisticAnimalsCompat-v1.17.R1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RealisticAnimalsWebEditor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RealisticAnimalsWebEditor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

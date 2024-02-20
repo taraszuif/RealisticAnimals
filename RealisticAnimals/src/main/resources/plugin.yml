@@ -1,0 +1,21 @@
+name: RealisticAnimals
+author: Zuif
+version: ${project.version}
+main: me.zuif.rean.RealisticAnimals
+commands:
+  animals:
+    description: Change animal information
+    aliases:
+      - anim
+  realisticanimals:
+    description: Main RealisticAnimals command.
+    aliases:
+      - realanim
+      - rean
+permissions:
+  rean.use:
+    description: 'Allows to use the command /realisticanimals'
+    default: op
+  desc.change:
+    description: 'Allows to use the animals desc change command'
+    default: true
